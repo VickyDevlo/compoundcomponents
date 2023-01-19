@@ -8,4 +8,3 @@ const AccordionContent = ({ children }) => {
 };
 
 export default AccordionContent;
-  
