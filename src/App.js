@@ -1,16 +1,18 @@
 import React from "react";
 import "./App.css";
 import Accordion from "./Components/Accordions/Accordion";
+import Content from "./Components/Accordions/Content";
+import Header from "./Components/Accordions/Header";
 import Card from "./Components/Card";
 
 function App() {
   return (
     <Card>
       <Accordion>
-        <Accordion.Header>
+        <Header>
           <button>Section 1</button>
-        </Accordion.Header>
-        <Accordion.Content>
+        </Header>
+        <Content>
           <p className="para">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
             omnis necessitatibus doloremque, architecto blanditiis suscipit
@@ -19,14 +21,14 @@ function App() {
             deserunt et maiores iste voluptatem maxime neque aliquid consequatur
             quasi. Ipsam necessitatibus iste, temporibus labore facere suscipit.
           </p>
-        </Accordion.Content>
+        </Content>
       </Accordion>
 
       <Accordion>
-        <Accordion.Header>
+        <Header>
           <button>Section 2</button>
-        </Accordion.Header>
-        <Accordion.Content>
+        </Header>
+        <Content>
           <p className="para">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
             omnis necessitatibus doloremque, architecto blanditiis suscipit
@@ -35,14 +37,14 @@ function App() {
             deserunt et maiores iste voluptatem maxime neque aliquid consequatur
             quasi. Ipsam necessitatibus iste, temporibus labore facere suscipit.
           </p>
-        </Accordion.Content>
+        </Content>
       </Accordion>
 
       <Accordion>
-        <Accordion.Header>
+        <Header>
           <button>Section 3</button>
-        </Accordion.Header>
-        <Accordion.Content>
+        </Header>
+        <Content>
           <p className="para">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
             omnis necessitatibus doloremque, architecto blanditiis suscipit
@@ -51,7 +53,7 @@ function App() {
             deserunt et maiores iste voluptatem maxime neque aliquid consequatur
             quasi. Ipsam necessitatibus iste, temporibus labore facere suscipit.
           </p>
-        </Accordion.Content>
+        </Content>
       </Accordion>
     </Card>
   );
