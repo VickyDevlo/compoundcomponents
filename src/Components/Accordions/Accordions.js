@@ -2,7 +2,7 @@ import React from "react";
 import Content from "./Content";
 import Accordion from "./Accordion";
 import Header from "./Header";
-import Card from "../Card";
+import Card from "../Card/Card";
 
 const Accordions = () => {
   return (

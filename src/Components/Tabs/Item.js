@@ -6,6 +6,7 @@ const Item = ({ children, index }) => {
     const clickHandler = () => {
         onchange(index);
     };
+
     return (
         <div
             className={index === currentTab ? "active tabItem" : "tabItem"}
