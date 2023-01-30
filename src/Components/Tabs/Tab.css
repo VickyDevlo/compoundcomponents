@@ -1,0 +1,30 @@
+.tabHeader {
+    margin: 0 auto;
+    display: flex;
+    width: fit-content;
+    border-bottom: 1px solid #eccece;
+    background-color: cadetblue;
+    color: white;
+    cursor: pointer;
+}
+
+.tabItem {
+    font-size: 30px;
+    padding: 12px;
+    border: 1px solid #8388958a;
+}
+
+.tabContent {
+    font-size: 40px;
+    width: fit-content;
+    margin: 12px auto;
+}
+
+.tabContentItems {
+    padding: 10px;
+}
+
+.active {
+    background-color: #0063ff69;
+    text-decoration: underline;
+}
