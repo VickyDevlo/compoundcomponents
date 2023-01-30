@@ -2,7 +2,7 @@
     margin: 0 auto;
     display: flex;
     width: fit-content;
-    border-bottom: 1px solid #eccece;
+ 
     background-color: cadetblue;
     color: white;
     cursor: pointer;
@@ -11,7 +11,7 @@
 .tabItem {
     font-size: 30px;
     padding: 12px;
-    border: 1px solid #8388958a;
+    border: 1px solid white;
 }
 
 .tabContent {
