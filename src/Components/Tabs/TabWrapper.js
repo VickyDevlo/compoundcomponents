@@ -18,9 +18,16 @@ const TabWrapper = () => {
         </Tab.Header>
 
         <Tab.Content>
-          <Tab.ContentItems index={1}>Tab 1</Tab.ContentItems>
-          <Tab.ContentItems index={2}>Tab 2</Tab.ContentItems>
-          <Tab.ContentItems index={3}>Tab 3</Tab.ContentItems>
+          <Tab.ContentItems index={1}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+            aspernatur.
+          </Tab.ContentItems>
+          <Tab.ContentItems index={2}>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, unde!
+          </Tab.ContentItems>
+          <Tab.ContentItems index={3}>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, hic.
+          </Tab.ContentItems>
         </Tab.Content>
       </Tab>
     </Card>
