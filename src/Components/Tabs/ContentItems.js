@@ -6,7 +6,7 @@ const ContentItems = ({ children, index }) => {
   return (
     <>
       {index === currentTab ? (
-        <div div className="tabContentItems">
+        <div className="tabContentItems">
           {children}
         </div>
       ) : null}
